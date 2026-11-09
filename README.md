@@ -25,20 +25,15 @@ python3 ping_pong.py
 Si usas Python instalado con Homebrew en Mac y aparece un error de tkinter, instálalo con brew install python-tk.
 
 🧠 Qué practiqué
-Concepto	Dónde se usa
-Módulo turtle Dibujar la cancha, las paletas, la pelota y el marcador
-tkinter y simpledialog	Ventana de bienvenida que pide el nombre de los jugadores
-Eventos de teclado	onkeypress para mover cada paleta con sus teclas
-Funciones	Una función para subir y otra para bajar cada paleta
-Ciclo principal (while True)	Actualizar la pantalla y mover la pelota en cada cuadro
-Coordenadas y velocidad	dx y dy para el movimiento de la pelota
-Detección de colisiones	Rebote en los bordes y choque con las paletas
-Contadores y texto con formato	Llevar y mostrar el puntaje con format()
-🔧 Ideas para mejorarlo
-Terminar la partida cuando alguien llegue a cierto número de puntos y anunciar al ganador.
-Evitar que las paletas se salgan de la pantalla.
-Aumentar la velocidad de la pelota con cada rebote para hacerlo más retador.
-Controlar el caso en que se cancela la ventana de nombres (hoy el programa falla si no se escribe nada).
-Agregar sonido al rebotar y al anotar.
+Módulo turtle                       ---  Dibujar la cancha, las paletas, la pelota y el marcador
+tkinter y simpledialog	            ---  Ventana de bienvenida que pide el nombre de los jugadores
+Eventos de teclado                 	---  onkeypress para mover cada paleta con sus teclas
+Funciones	                          ---  Una función para subir y otra para bajar cada paleta
+Ciclo principal (while True)	      ---  Actualizar la pantalla y mover la pelota en cada cuadro
+Coordenadas y velocidad	            ---  dx y dy para el movimiento de la pelota
+Detección de colisiones             ---  Rebote en los bordes y choque con las paletas
+Contadores y texto con formato	    ---  Llevar y mostrar el puntaje con format()
+
+
 👤 Autor
 Cristian Armenta, ingeniero industrial y analista de datos. Más proyectos en crisag.com.
